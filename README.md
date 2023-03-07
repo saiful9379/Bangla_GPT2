@@ -1,7 +1,5 @@
 # Bangla_GPT2
-
-OpenAI GPT-2 model was proposed in Language Models are Unsupervised Multitask Learners. This OpenAI GPT2 model was train using Bangla News paper dataset . Here  we used prothom algo 250mb data for GPT2 model training purpose and also We use vocab size 50k for this model. 
-Original GPT2 model was a causal (unidirectional) transformer pretrained using language modeling on a very large corpus of ~40 GB of text data. This model has same configuration but has been pretrained on bengali corpus of mC4(multilingual C4) dataset. 
+Bangla GPT2 model was trained using the Bangla Newspaper dataset. Here we used prothom algo 250mb data for GPT2 model training and also vocab size 50k. 
 
 🤗 ![Demo in huggingface](https://huggingface.co/saiful9379/Bangla_GPT2)
 # Requirements,
@@ -12,13 +10,12 @@ tokenizers==0.12.1
 torch==1.11.0+cu113  
 ```
 # Download Dataset,
-wiki data download using below this script. this script save the data chunk by chunk.
-Run,
+Download the wiki data Run,
 ```
 python wikipedia_download.py --lang bn
 ```
 # Model configuration,
-Here the basic model configuration,
+Here the basic configuration of Bangla GPT2 model,
 ```
 vocab_size = 50000
 block_size = 200
