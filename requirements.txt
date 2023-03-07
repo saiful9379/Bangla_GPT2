@@ -1,0 +1,4 @@
+tensorflow-gpu==2.6.1
+transformers==4.22.1
+tokenizers==0.12.1
+torch==1.11.0+cu113  
