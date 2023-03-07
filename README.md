@@ -1,5 +1,5 @@
 # Bangla_GPT2
-Bangla GPT2 model was trained using the Bangla Newspaper dataset. Here we used prothom algo 250mb data for GPT2 model training and also vocab size 50k. 
+Bangla GPT2 model was trained using the Bangla Newspaper dataset. Here we used prothom alo 250mb data for GPT2 model training and also vocab size 50k. 
 
 🤗 ![Demo in huggingface](https://huggingface.co/saiful9379/Bangla_GPT2)
 # Requirements,
